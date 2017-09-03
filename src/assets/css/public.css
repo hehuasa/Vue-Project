@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.display-none {
+  display: none;
+}
+.white {
+  color: #fff;
+}
+.blue {
+  color: #0059ca;
+}
+.back-gray {
+  background: #f4f4f4;
+}
+.full-screen {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.margin0auto {
+  margin: 0 auto;
+}
+.inline-block {
+  display: inline-block;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.active {
+  background: blue !important;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.pointer {
+  cursor: pointer;
+}
+.content {
+  margin-top: 87px;
+}
+.warp {
+  white-space: pre-line !important;
+}
