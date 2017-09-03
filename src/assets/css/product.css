@@ -101,12 +101,6 @@
   padding-bottom: 15px;
   padding-right: 0;
 }
-.el-menu li {
-  list-style-type: disc;
-}
-.el-menu {
-  list-style-type: disc;
-}
 .el-menu-item,
 .el-submenu__title,
 .el-menu-item,
@@ -116,4 +110,8 @@
   height: auto !important;
   line-height: normal !important;
   white-space: pre-line;
+}
+.protection-content-title {
+  padding: 20px 0;
+  border-bottom: #0059ca;
 }

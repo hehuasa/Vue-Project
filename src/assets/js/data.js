@@ -3,9 +3,15 @@
  */
 import Vue from 'vue'
 export default {
+  methods: {
+    handle(item){
+      return item
+    }
+  },
   data() {
     name:"protection"
     return {
+      data:{},
       content:[
         {id:"2.2.1",title:"西门子FS720 系列火灾探测产品",content:"见《1301_Cerberus PRO FS720系列火灾探测产品设计指导手册.pdf》",
         children:[

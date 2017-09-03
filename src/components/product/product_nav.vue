@@ -1,7 +1,7 @@
 <template>
 <div class="safety-warp ">
-  <el-row  type="flex" algin="middle" justify="center" class="margin0auto back-gray" >
-    <el-col :lg="16" :md="20" :sm="22" :xs="22" class="product-nav relative">
+  <el-row  type="flex" algin="middle" justify="center" class="margin0auto" >
+    <el-col :lg="18" :md="22" :sm="23" :xs="24" class="product-nav relative">
       <div class="absolute product-nav-logo white ">
         <div class="product-nav-logo-title">产品中心</div>
         <div class="product-nav-logo-text">PRODUCT</div>
