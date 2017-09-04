@@ -44,9 +44,9 @@
       return {
         navList:[
           {id:0,path:"homepage",name:"首页"},
-          {id:1,path:"product",name:"新闻中心"},
+          {id:1,path:"news",name:"新闻中心"},
           {id:2,path:"product",name:"产品中心"},
-          {id:3,path:"product",name:"关于我们"}]
+          {id:3,path:"abouts",name:"关于我们"}]
       };
     }}
 </script>
