@@ -1,6 +1,6 @@
 .header-warp {
   margin: 0 auto;
-  min-height: 87px;
+  height: 90px;
   background: #fefefe;
 }
 .logo {
@@ -15,19 +15,26 @@
   }
   .nav ul {
     list-style: none;
-    margin-top: 40px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
   }
   .nav li {
     display: inline-block;
-    padding: 10px 3px;
-    margin: 0 22px;
+    height: 90px;
+    line-height: 90px;
+    width: 120px;
     font-size: 16px;
     text-align: center;
     border-radius: 1px;
     cursor: pointer;
   }
   .nav li:hover {
-    border-bottom: 3px solid blue;
+    background: #fafafa;
+    border-bottom: 4px solid blue;
+    border-right: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+    box-sizing: border-box;
   }
   .btn-nav {
     display: none;

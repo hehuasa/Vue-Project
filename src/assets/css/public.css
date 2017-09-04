@@ -58,3 +58,6 @@ img {
 .content {
   margin-top: 87px;
 }
+.warp {
+  white-space: pre-line !important;
+}

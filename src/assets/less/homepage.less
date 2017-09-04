@@ -1,9 +1,16 @@
 .banner{
-  width: 100%;
-  max-height: 550px !important;
+  height: auto;
+  //width: 100%;
+  //max-height: 550px !important;
+  & img{
+    width: 100%;
+    height: 100%;
+  }
+  & .swiper-slide{
+    height: auto;
+  }
 }
 .swiper-container{
-  margin-top: 87px;
   &:hover{
     .display-none{
       display: block !important;
@@ -29,8 +36,8 @@
   position: relative;
   width: 65%;
   margin: 50px 17.5% ;
-  height: 325px;
   & img{
+    height: auto;
     cursor: pointer;
   }
 }
